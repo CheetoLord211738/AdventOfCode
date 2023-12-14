@@ -68,9 +68,6 @@ def part2(filename):
         column = ''.join([universe[x][i] for x in range(len(universe))])
         if(len([char for char in column if char == "#"]) == 0):
             horizontalExtentionIndecies.append(i)
-    
-    print(horizontalExtentionIndecies)
-    print(verticalExtentionIndecies)
 
     #find all galaxies
     galaxies = []
